@@ -1,0 +1,527 @@
+﻿body {
+    background-color:#737171;
+}
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+
+
+}
+a{
+    text-decoration:none;
+    color:white;
+
+}
+a:hover {
+   
+    color: dimgrey;
+}
+#wrapper {
+    width: 1200px;
+    height: 812px;
+    margin: 0 auto;
+    background-color: #737171;
+}
+
+
+header{
+    float:left;
+    width:1200px;
+    height:135px;
+    background-color:#0f539f;
+
+
+}
+header2 {
+    float: left;
+    width: 1200px;
+    height: 45px;
+    background-color: #002147;
+}
+
+    header2 nav {
+        
+    
+        float:left;
+        height:45px;
+        width:600px;
+        }
+        header2 nav ul {
+            list-style: none;
+            color: white;
+            margin-top: 10px;
+            font-size:20px;
+            margin-left:10px;
+    width: 892px;
+}
+    header2 nav ul li{
+
+        float:left;
+        margin-left:15px;
+      
+}
+    header2 .arama{
+
+        float:left;
+        width:270px;
+        height:45px;
+        margin-left:330px;
+        background-color:white;
+
+
+    }
+    header2 .arama .önuTB2{
+        float:left;
+        width:220px;
+        height:45px;
+        font-size:20px;
+        padding-left:10px;
+
+    }
+        header2 .arama .button3 {
+            float: left;
+            width: 40px;
+            height: 45px;
+            font-size: 20px;
+            background-color: #002147;
+            color:white;
+        }
+        header2 .arama .button3 :hover{
+           
+            color: dimgray;
+        }
+   
+   
+#yazı {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 55px;
+    text-align: center;
+    margin: -100px;
+    font-style: italic
+}
+
+.ortabölüm1{
+    float:left;
+    width:360px;
+    height:430px;
+    background-color:lightgray;
+
+}
+.ortabölüm2 {
+    float: left;
+    width: 800px;
+    height: 430px;
+    margin-left: 40px;
+    background-color: lightgray;
+}
+.altbölüm {
+    float: left;
+    width: 1200px;
+    height: 400px;
+    margin-top: 35px;
+    background-color: lightgray;
+}
+.tanıtım {
+    float: left;
+    width: 1200px;
+    height: 45px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    background-color: lightgray;
+    color: #555;
+}
+
+.ortabölüm1 .önuTB {
+    width: 100px;
+    height: 23px;
+    margin-left: 4px;
+}
+.ortabölüm1 #adTB {
+    width: 100px;
+    height: 23px;
+}
+.ortabölüm1 #soyadTB {
+    width: 100px;
+    height: 23px;
+}
+.ortabölüm1 #öTB {
+    width: 100px;
+    height: 23px;
+}
+.ortabölüm2 #KurumCB {
+    width: 250px;
+    height: 23px;
+}
+.ortabölüm2 #dateTimePicker1 {
+    width: 250px;
+    height: 23px;
+}
+.ortabölüm2 #tplamgünTB {
+    width: 100px;
+    height: 23px;
+}
+.ortabölüm2 #sınıfBilgiTB {
+    width: 100px;
+    height: 23px;
+}
+.ortabölüm2 #MulakatTTB {
+    width: 100px;
+    height: 23px;
+}
+.ortabölüm2 .düzen #SehirCB {
+    width: 100px;
+    height: 23px;
+}
+.sehirler {
+    width: 100px;
+    height: 23px;
+    margin-left:10px;
+    
+}
+.ortabölüm2 .düzen #dateTimePicker2 {
+    width: 250px;
+    height: 23px;
+}
+.ortabölüm2 .düzen #stajKonusuTB {
+    width: 100px;
+    height: 23px;
+}
+.ortabölüm2 .düzen #DropDownlist1 {
+    width: 100px;
+    height: 23px;
+}
+.ortabölüm2 .düzen #kabuledilenTB {
+    width: 100px;
+    height: 23px;
+}
+.ortabölüm2 .butonlar #tamamlaBTN {
+    width: 100px;
+    height: 23px;
+    margin-top: 15px;
+    background-color:darkgray;
+    color:black;
+}
+.ortabölüm2 .butonlar #kayitsilBTN {
+    width: 100px;
+    height: 23px;
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: darkgray;
+    color: black;
+}
+.ortabölüm2 .butonlar #ListeTemizleButon {
+    width: 215px;
+    height: 23px;
+    margin-top: 10px;
+    background-color: darkgray;
+    color: black;
+}
+.ortabölüm2 .butonlar #YeniEkleBTN {
+    width: 100px;
+    height: 23px;
+    margin-right: 200px;
+    margin-top: 10px;
+    background-color: darkgray;
+    color: black;
+}
+.altbölüm #listbox1 {
+    width: 100%;
+    height: 100%;
+}
+
+.DGSortabölüm1 {
+    float: left;
+    width: 1200px;
+    height: 600px;
+    background-color: lightgray;
+}
+.SDortabölüm1 {
+    float: left;
+    width: 1200px;
+    height: 632px;
+    background-color: lightgray;
+}
+.Rortabölüm1 {
+    float: left;
+    width: 1200px;
+    height: 864px;
+    background-color: lightgray;
+}
+.SKortabölüm1 {
+    float: left;
+    width: 1200px;
+    height: 600px;
+    background-color: lightgray;
+}
+.Mortabölüm1 {
+    float: left;
+    width: 1200px;
+    height: 900px;
+    background-color: lightgray;
+}
+#yazı2 {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 55px;
+    margin: -100px;
+    margin-left:155px;
+    font-style: italic
+}
+#yazı3 {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 55px;
+    margin: -100px;
+    margin-left: 100px;
+    font-style: italic
+}
+#yazı4 {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 55px;
+    margin: -100px;
+    margin-left: 154px;
+    font-style: italic
+}
+#DropDownlist1 {
+
+    width: 100px;
+    height: 23px;
+}
+#SKyazı {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 55px;
+    margin: -100px;
+    margin-left: 100px;
+    font-style: italic
+}
+
+#wrapper .DGSortabölüm1 #SDON {
+    width: 110px;
+    height: 23px;
+}
+#wrapper .DGSortabölüm1 #SDBT {
+    width: 110px;
+    height: 23px;
+}
+#wrapper .DGSortabölüm1 #ÖnuTB {
+    width: 110px;
+    height: 23px;
+}
+#wrapper .DGSortabölüm1 #ÖadTB {
+    width: 110px;
+    height: 23px;
+}
+#wrapper .DGSortabölüm1 #ÖsoyadTB {
+    width: 110px;
+    height: 23px;
+}
+#wrapper .DGSortabölüm1 #eoaTB {
+    width: 110px;
+    height: 23px;
+}
+#wrapper .DGSortabölüm1 #sekTB {
+    width: 110px;
+    height: 23px;
+}
+#wrapper .DGSortabölüm1 #ysgTB {
+    width: 110px;
+    height: 23px;
+}
+#wrapper .DGSortabölüm1 #kegsTB {
+    width: 110px;
+    height: 23px;
+}
+#wrapper .DGSortabölüm1 #sdTB {
+    width: 110px;
+    height: 23px;
+}
+#wrapper .DGSortabölüm1 #FileUpload1 {
+    width: 300px;
+    height: 23px;
+    
+}
+#wrapper .DGSortabölüm1 #DGKaydetBTN {
+    width: 100px;
+    height: 23px;
+    background-color: darkgray;
+    color: black;
+}
+#wrapper .SDortabölüm1 #ddTB {
+    width: 100px;
+    height: 23px;
+}
+#wrapper .SDortabölüm1 #ccTB {
+    width: 100px;
+    height: 23px;
+}
+#wrapper .SDortabölüm1 #ivyTB {
+    width: 100px;
+    height: 23px;
+}
+#wrapper .SDortabölüm1 #akdTB {
+    width: 100px;
+    height: 23px;
+   
+}
+#wrapper .SDortabölüm1 #iaktTB {
+    width: 100px;
+    height: 23px;
+ 
+}
+#wrapper .SDortabölüm1 #projeTB {
+    width: 100px;
+    height: 23px;
+
+   
+}
+#wrapper .SDortabölüm1 #label1 {
+    width: 1px;
+    height: 1px;
+   
+}
+#wrapper .SDortabölüm1 #düzenTB {
+    width: 100px;
+    height: 23px;
+ 
+}
+#wrapper .SDortabölüm1 #sunumTB {
+    width: 100px;
+    height: 23px;
+  
+}
+#wrapper .SDortabölüm1 #icerikTB {
+    width: 100px;
+    height: 23px;
+   
+}
+#wrapper .SDortabölüm1 #mülakatTB {
+    width: 100px;
+    height: 23px;
+ 
+}
+#wrapper .SDortabölüm1 #label22 {
+    width: 100px;
+    height: 23px;
+   
+}
+#wrapper .SDortabölüm1 #basarıLabel {
+    width: 100px;
+    height: 23px;
+   
+}
+#wrapper .SDortabölüm1 #label12 {
+    width: 100px;
+    height: 23px;
+   
+}
+#wrapper .SDortabölüm1 #sonucLBL {
+    width: 100px;
+    height: 23px;
+     
+}
+#wrapper .SDortabölüm1 .auto-style3 {
+   
+    margin-top:-240px;
+
+}
+#wrapper .SDortabölüm1 .Kaydet {
+    width: 100px;
+    height: 23px;
+    background-color: darkgray;
+    color: black;
+    overflow: hidden;
+}
+#wrapper .SKortabölüm1 .skAdTB {
+    width: 100px;
+    height: 23px;
+    
+}
+#wrapper .SKortabölüm1 .sksoyadTB {
+    width: 100px;
+    height: 23px;
+}
+
+#wrapper .SKortabölüm1 .skünvanTB {
+    width: 100px;
+    height: 23px;
+
+}
+
+#wrapper .SKortabölüm1 .skkomisyonTB {
+    width: 100px;
+    height: 23px;
+ 
+}
+
+#wrapper .SKortabölüm1 .skEkleBTN {
+    width: 100px;
+    height: 23px;
+    background-color: darkgray;
+    color: black;
+    overflow: hidden;
+}
+#wrapper .SKortabölüm1 .button2 {
+    width: 100px;
+    height: 23px;
+    background-color: darkgray;
+    color: black;
+    overflow: hidden;
+}
+#wrapper .SKortabölüm1 .button1 {
+    width: 225px;
+    height: 23px;
+    background-color: darkgray;
+    color: black;
+    overflow: hidden;
+}
+#wrapper .SKortabölüm1 .skLB {
+
+    margin-top: -350px;
+    margin-left:50px;
+    margin-bottom:25px;
+}
+.tanıtım3 {
+    float: left;
+    width: 1200px;
+    height: 45px;
+    margin-top: 300px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    background-color: lightgray;
+    color: #555;
+}
+#MRaporBTN {
+    margin-left: 160px;
+    width: 100px;
+    height: 23px;
+    background-color: darkgray;
+    color: black;
+    overflow: hidden;
+}
+#göster {
+    margin-left: 320px;
+    width: 100px;
+    height: 23px;
+    background-color: darkgray;
+    color: black;
+    overflow: hidden;
+}
+#Button1 {
+    margin-left: 320px;
+    width: 100px;
+    height: 23px;
+    background-color: darkgray;
+    color: black;
+    overflow: hidden;
+}
+
+
+
